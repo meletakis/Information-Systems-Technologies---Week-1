@@ -34,8 +34,15 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+              {% if user.is_authenticated %}
                 <li><a href="/">Home</a></li>
                 <li><a href="/posts">All Posts</a></li>
+              <li><a href="/accounts/logout">Log Out</a></li>
+              {% else %}
+                 <li><a href="/">Home</a></li>
+                <li><a href="/accounts/login">Login</a></li>
+              {% endif %}
+
           </ul>
         </div>
       </div>
@@ -51,6 +58,7 @@
            <div>
                 {% block body_block %}{% endblock %}
                 </div>
+            {% block content %}{% endblock %}
         </div>
       </div>
     </div>

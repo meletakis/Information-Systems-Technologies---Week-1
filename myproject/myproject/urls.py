@@ -11,4 +11,5 @@ urlpatterns = patterns('',
     url(r'^posts/', include('posts.urls')),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$',TemplateView.as_view(template_name='index.html'), name="index"),
+    url(r'^accounts/', include('registration.backends.default.urls')),
 )
