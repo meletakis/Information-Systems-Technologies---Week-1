@@ -19,3 +19,7 @@
 6. Install django defining version
 > pip install -U django==1.7
 
+7. Clone this project
+> git clone https://github.com/meletakis/Information-Systems-Technologies---Week-2.git
+
+
