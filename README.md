@@ -7,6 +7,15 @@
 > pip install virtualenv
 
 3. Make directories
-> mkdir myprojectfolder
+> mkdir myprojectfolder;
 > cd myprojectfolder
-4. 
+
+4. Initialize virtualenv
+> virtualenv week2
+
+5. Activate virtualenv
+> source week2/bin/activate
+
+6. Install django defining version
+> pip install -U django==1.7
+
