@@ -22,4 +22,13 @@
 7. Clone this project
 > git clone https://github.com/meletakis/Information-Systems-Technologies---Week-2.git
 
+8. Take only myfolder to your enviroment
+> mv Information-Systems-Technologies---Week-2/myproject/ ./; sudo rm -r Information-Systems-Technologies---Week-2/
+
+9. Run Server
+> python myproject/manage.py runserver
+
+10. Enjoy
+11. Extent this project
+
 
