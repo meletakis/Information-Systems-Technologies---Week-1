@@ -30,18 +30,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/rango/">Rango</a>
+          <a class="navbar-brand" href="/">Home</a>
+          <a class="navbar-brand" href="/posts">Posts</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-              {% if user.is_authenticated %}
-                <li><a href="/">Home</a></li>
-                <li><a href="/posts">All Posts</a></li>
-              <li><a href="/accounts/logout">Log Out</a></li>
-              {% else %}
-                 <li><a href="/">Home</a></li>
-                <li><a href="/accounts/login">Login</a></li>
-              {% endif %}
 
           </ul>
         </div>
